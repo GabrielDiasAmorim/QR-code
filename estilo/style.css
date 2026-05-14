@@ -41,7 +41,9 @@
 }
 div.imagem {
   width: 100%;
-  height: auto;
+}
+div.imagem img {
+  width: 100%;
   display: block;
   border-radius: 10px;
 }
