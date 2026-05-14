@@ -25,26 +25,39 @@
 }
 .card {
   background-color: var(--color-slate-300);
+  font-size: var(--font-size-paragraph);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 24px;
 }
 .item {
   background-color: var(--color-white);
-  width: 375px;
-  height: 375px;
-  border-radius: 8px;
+  padding: 16px;
+  max-width: 320px;
+  border-radius: 20px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.05);
+}
+div.imagem {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+div.conteudo {
+  padding: 24px 12px;
 }
 div.conteudo h1 {
   color: var(--color-slate-900);
   margin-bottom: 10px;
-  line-height: 1.5em;
-  text-align: center;
+  line-height: 1.3em;
+  font-weight: var(--font-weight-bold);
+  font-size: 22px;
 }
 div.conteudo p {
   color: var(--color-slate-500);
-  font-size: var(--font-size-paragraph);
-  line-height: 2em;
-  text-align: center;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.4em;
+  font-size: 15px;
+
 }
