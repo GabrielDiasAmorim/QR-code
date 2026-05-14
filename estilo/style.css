@@ -40,8 +40,7 @@
   box-shadow: 0 25px 40px rgba(0, 0, 0, 0.05);
 }
 div.imagem {
-  display: block;
-  width: 90%;
+  width: 100%;
   border-radius: 10px;
 }
 div.conteudo {
