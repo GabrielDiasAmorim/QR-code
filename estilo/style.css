@@ -32,11 +32,19 @@
 }
 .item {
   background-color: var(--color-white);
+  width: 375px;
+  height: 375px;
+  border-radius: 8px;
 }
 div.conteudo h1 {
   color: var(--color-slate-900);
+  margin-bottom: 10px;
+  line-height: 1.5em;
+  text-align: center;
 }
 div.conteudo p {
   color: var(--color-slate-500);
   font-size: var(--font-size-paragraph);
+  line-height: 2em;
+  text-align: center;
 }
